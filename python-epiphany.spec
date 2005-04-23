@@ -2,13 +2,13 @@
 Summary:	Python Epiphany bindings
 Summary:	Dowi±zania Pythona dla Epiphany
 Name:		python-epiphany
-Version:	0.1.3
+Version:	0.1.4
 Release:	1
 License:	LGPL v2.1 or MPL v1.1
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/pyphany/0.1/%{pname}-%{version}.tar.bz2
-# Source0-md5:	27d63442ebfd4321e7ba26d567c8fe40
-BuildRequires:	epiphany-devel >= 1.6.1
+# Source0-md5:	9f9f4450671feae4a62dd793fa351fa4
+BuildRequires:	epiphany-devel >= 1.6.3
 BuildRequires:	gtk+2-devel >= 2:2.6.4
 BuildRequires:	intltool >= 0.33
 BuildRequires:	libtool
@@ -17,7 +17,7 @@ BuildRequires:	python-devel >= 2.3
 BuildRequires:	python-gnome-devel >= 2.9.4
 BuildRequires:	python-pygtk-devel >= 2.5.3
 %pyrequires_eq	python-modules
-Requires:	epiphany >= 1.6.1
+Requires:	epiphany >= 1.6.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
