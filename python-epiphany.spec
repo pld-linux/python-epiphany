@@ -1,6 +1,6 @@
 %define		pname pyphany
 Summary:	Python Epiphany bindings
-Summary(pl):	Dowi±zania Pythona dla Epiphany
+Summary(pl.UTF-8):   DowiÄ…zania Pythona dla Epiphany
 Name:		python-epiphany
 Version:	0.1.4
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Python Epiphany bindings.
 
-%description -l pl
-Dowi±zania Pythona dla Epiphany.
+%description -l pl.UTF-8
+DowiÄ…zania Pythona dla Epiphany.
 
 %prep
 %setup -q -n %{pname}-%{version}
