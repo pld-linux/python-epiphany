@@ -1,6 +1,6 @@
 %define		pname pyphany
 Summary:	Python Epiphany bindings
-Summary(pl.UTF-8):   Dowiązania Pythona dla Epiphany
+Summary(pl.UTF-8):	Dowiązania Pythona dla Epiphany
 Name:		python-epiphany
 Version:	0.1.4
 Release:	1
